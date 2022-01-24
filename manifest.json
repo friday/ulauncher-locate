@@ -1,0 +1,18 @@
+{
+  "required_api_version": "2.0",
+  "name": "Locate (File Search)",
+  "description": "Search files using Locate (simple, performant indexed file search)",
+  "developer_name": "Albin Larsson",
+  "icon": "images/search.svg",
+  "options": {
+    "query_debounce": 0.2
+  },
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "Locate (File Search)",
+      "default_value": "locate"
+    }
+  ]
+}
