@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 cmd = [
     'timeout', '5s',
     'ionice', '-c', '3',
-    'locate', '--quiet', '--basename', '--nofollow', '--ignore-case'
+    'locate', '--basename', '--ignore-case'
 ]
 
 
