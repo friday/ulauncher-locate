@@ -4,7 +4,7 @@
   "description": "Search files using Locate (simple, performant indexed file search)",
   "developer_name": "Albin Larsson",
   "icon": "images/search.svg",
-  "instructions": "This extensions needs <code>locate</code> (usually provided by the package <code>mlocate</code> or <code>findutils</code>).",
+  "instructions": "This extensions needs <code>locate</code> (usually provided by the package <code>plocate</code>, <code>mlocate</code> or <code>findutils</code>). Also ensure that the database is updated regularly, with <code>updatedb</code>.",
   "options": {
     "query_debounce": 0.2
   },
