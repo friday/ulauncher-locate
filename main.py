@@ -56,7 +56,7 @@ class KeywordQueryEventListener(EventListener):
 
         return RenderResultListAction([ExtensionResultItem(
             icon='images/search.svg',
-            name=f'Could not find any files matching "{query}"',
+            name=err or f'Could not find any files matching "{query}"',
             on_enter=HideWindowAction())
         ])
 
